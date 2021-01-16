@@ -15,7 +15,7 @@ module.exports = (_ => {
             "name": "CRYPTATOR",
             "author": "Flo",
             "version": "0.0.1",
-            "description": "Encrypt message"
+            "description": "Decrypt message"
         }
     };
     return !window.BDFDB_Global || (!window.BDFDB_Global.loaded && !window.BDFDB_Global.started) ? class {
